@@ -1,9 +1,9 @@
 <?php
 
-namespace WDevs\LaravelValueserp\Providers;
+namespace Airan\LaravelValueserp\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use WDevs\LaravelValueserp\LaravelValueserp;
+use Airan\LaravelValueserp\LaravelValueserp;
 
 class LaravelValueserpServiceProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace WDevs\LaravelValueserp\Endpoints;
+namespace Airan\LaravelValueserp\Endpoints;
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\RequestException;

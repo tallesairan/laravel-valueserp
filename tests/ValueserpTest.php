@@ -1,12 +1,12 @@
 <?php
 
-namespace WDevs\LaravelValueserp\Tests;
+namespace Airan\LaravelValueserp\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Http\Client\RequestException;
 use Orchestra\Testbench\TestCase;
-use WDevs\LaravelValueserp\LaravelValueserp;
-use WDevs\LaravelValueserp\Providers\LaravelValueserpServiceProvider;
+use Airan\LaravelValueserp\LaravelValueserp;
+use Airan\LaravelValueserp\Providers\LaravelValueserpServiceProvider;
 
 class ValueserpTest extends TestCase
 {

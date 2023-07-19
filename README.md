@@ -7,13 +7,13 @@ Laravel package for the [Valueserp](https://www.valueserp.com/docs/search-api/ov
 Run the following command to install this package into your project.
 
 ``` bash
-composer require wdevs/laravel-valueserp
+composer require tallesairan/laravel-valueserp
 ```
 
 Optional: publish the config files with the following command:
 
 ``` bash
-php artisan vendor:publish --provider="WDevs\LaravelValueserp\Providers\LaravelValueserpServiceProvider"
+php artisan vendor:publish --provider="Airan\LaravelValueserp\Providers\LaravelValueserpServiceProvider"
 ```
 
 Set the environment variables in your .env file like this:

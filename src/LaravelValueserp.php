@@ -1,10 +1,10 @@
 <?php
 
-namespace WDevs\LaravelValueserp;
+namespace Airan\LaravelValueserp;
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Facades\Http;
-use WDevs\LaravelValueserp\Endpoints\SearchEndpoint;
+use Airan\LaravelValueserp\Endpoints\SearchEndpoint;
 
 class LaravelValueserp
 {

@@ -1,24 +1,24 @@
 {
-    "name": "wdevs/laravel-valueserp",
+    "name": "tallesairan/laravel-valueserp",
     "description": "Easily work with the Valueserp API in a Laravel application.",
     "keywords": [
-        "wijnberg.dev",
+        "tallesairan",
         "laravel-valueserp"
     ],
-    "homepage": "https://github.com/Paulsky/laravel-valueserp",
+    "homepage": "https://github.com/tallesairan/laravel-valueserp",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Wijnberg Developments",
-            "email": "contact@wijnberg.dev",
+            "name": "Talles Airan",
+            "email": "airan.talles@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4",
-        "guzzlehttp/guzzle": "^7.4",
-        "illuminate/support": "^8.68"
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": ">=7.4",
+        "illuminate/support": ">=8.68"
     },
     "require-dev": {
         "orchestra/testbench": "^6.22",
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "WDevs\\LaravelValueserp\\": "src"
+            "Airan\\LaravelValueserp\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WDevs\\LaravelValueserp\\Tests\\": "tests"
+            "Airan\\LaravelValueserp\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "WDevs\\LaravelValueserp\\Providers\\LaravelValueserpServiceProvider"
+                "Airan\\LaravelValueserp\\Providers\\LaravelValueserpServiceProvider"
             ],
             "aliases": {
-                "LaravelValueserp": "WDevs\\LaravelValueserp\\Providers\\LaravelValueserpFacade"
+                "LaravelValueserp": "Airan\\LaravelValueserp\\Providers\\LaravelValueserpFacade"
             }
         }
     }

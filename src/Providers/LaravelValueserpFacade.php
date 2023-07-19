@@ -1,11 +1,11 @@
 <?php
 
-namespace WDevs\LaravelValueserp\Providers;
+namespace Airan\LaravelValueserp\Providers;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \WDevs\LaravelValueserp\Skeleton\SkeletonClass
+ * @see \Airan\LaravelValueserp\Skeleton\SkeletonClass
  */
 class LaravelValueserpFacade extends Facade
 {
